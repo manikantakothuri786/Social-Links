@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  /* height: 100vh; */
+  font-family: "Inter", serif;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: hsl(0, 0%, 100%);
+}
+.title-heading {
+  margin-bottom: 1.5rem;
+}
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: hsl(0, 0%, 12%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+.title-heading {
+  margin-top: 3rem;
+}
+.project {
+  width: 100%;
+}
+.image {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.project-image {
+  width: 100%;
+}
+a {
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+}
+a:link {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+}
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
